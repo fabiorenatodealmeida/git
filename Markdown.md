@@ -1,6 +1,6 @@
 # Markdown - A Lightweight Markup Language
 
-This is a simplified guide to some of the markdown elements. For each topic you will see what you can do and how to do it. Interesting enough, the whole document has been built with markdown itself. [^1]
+This is a simplified guide to some of the markdown elements. For each topic, you will see what you can do and how to do it. Interestingly enough, the whole document has been built with markdown itself. [^1]
 
 For those who already know the basics of markdown, you can go directly to the Topic [Cheat Sheet](#cheat-sheet).
 
@@ -236,7 +236,7 @@ If you need to render some of the special markdown characters, try using a backs
 
 ## Conclusion
 
-The goal of this document is not to be a comprehensive resource for the markdown language, you can check out the references for more information. Here we just simplified the use of the language by pointing out simple examples of the supposed most used features. By doing that, we consider the document as a quick refresher of how to do something.
+The goal of this document is not to be a comprehensive resource for the markdown language. You can check out the references for more information. Here we just simplified the use of the language by pointing out simple examples of the supposed most used features. By doing that, we consider the document as a quick refresher of how to do something.
 
 Even though some features were not covered here, they were used in the construction of the document, so you can always look at this source file to see them yourself.
 
