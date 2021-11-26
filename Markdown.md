@@ -247,5 +247,5 @@ Even though some features were not covered here, they were used in the construct
 - [Markdown Guide](https://www.markdownguide.org/)
 - [Emojipedia](https://emojipedia.org/)
 
-[^1]: We used some HTML \<br\> tags in some places in order to force a line break.
+[^1]: We used HTML \<br\> tags in some places in order to force a line break.
 [^2]: René Descartes.
