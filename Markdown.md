@@ -103,23 +103,31 @@ Always use relative links when referencing an asset in your project in order to 
 
 Much more information can be found at [GitHub Documentation](https://docs.github.com/en).
 
-`Much more information can be found at [GitHub Documentation](https://docs.github.com/en).`
+```
+Much more information can be found at [GitHub Documentation](https://docs.github.com/en).
+```
 
 **Section**
 
 You can click [here](#headings) to return to the Topic **Headings**.
 
-`You can click [here](#headings) to return to the Topic **Headings**.`
+```
+You can click [here](#headings) to return to the Topic **Headings**.
+```
 
 You can click [here](#markdown---a-lightweight-markup-language) to return to the beginning of the document.
 
-`You can click [here](#markdown---a-lightweight-markup-language) to return to the beginning of the document.`
+```
+You can click [here](#markdown---a-lightweight-markup-language) to return to the beginning of the document.
+```
 
 **Image**
 
 ![The Octocat](https://myoctocat.com/assets/images/base-octocat.svg)
 
-`![The Octocat](https://myoctocat.com/assets/images/base-octocat.svg)`
+```
+![The Octocat](https://myoctocat.com/assets/images/base-octocat.svg)
+```
 
 ## Lists
 
