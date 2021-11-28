@@ -61,7 +61,9 @@ This is my thoughts on the previous quote comment.
 
 Use `git init` to initialize a local repository.
 
-``Use `git init` to initialize a local repository.``
+```
+Use `git init` to initialize a local repository.
+```
 
 **As a block**
 
