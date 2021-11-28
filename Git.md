@@ -98,6 +98,13 @@ filename
 
 Type `man gitignore` for help on that.
 
+You should also create a file named `.gitattributes` to explicitly tell git what kind of binary files you have in your repository. It is crucial because git will automatically convert `CR` + `LF` line endings to `LF` during check-in and check-out of text files to circumvent problems when contributors use different operating systems.
+
+```
+* text=auto eol=lf
+*.{png,jpg,jpeg,gif} binary
+```
+
 To stop tracking a file, use the following command. The file will also be deleted from the working tree. Use `--cached` to only remove the file from the index.
 
 ```
