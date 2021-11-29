@@ -16,4 +16,4 @@ The [Git.md](Git.md) file contains some git commands you will need when working 
 ssh-keygen -t ed25519 -C "GitHub-User-e-mail"
 ```
 
-We recommend you first set up your GitHub account with your public key before trying any git command. Then you will be able to run over an SSH connection without even having to type your user name and password each time you go to the remote server. Read [Connecting to GitHub with SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh) for more information.
+We recommend you first set up your GitHub account with your public key before trying any Git command. Then you will be able to run over an SSH connection without even having to type your user name and password each time you go to the remote server. Read [Connecting to GitHub with SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh) for more information.
