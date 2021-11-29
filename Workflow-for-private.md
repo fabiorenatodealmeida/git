@@ -39,7 +39,6 @@ Even though it is private, an authorized contributor can access the repository: 
 3. When your issue is accepted, or you just want to try it yourself, create a branch to work on the project. Use a suggestive name or a name related to an open issue, like `crazy-idea` or `issue-1`. But remember, **always create a branch** before starting your work.
 
    ```
-   git switch main
    git branch issue-1
    ```
 
