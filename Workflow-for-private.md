@@ -127,3 +127,9 @@ Although any contributor with write access to the repository can do this operati
 ## Final Thoughts
 
 The maintainer could also work on an issue, but in this case, the maintainer should assume the role of a contributor and go through the same steps a regular contributor would go. The only difference is that the acceptance of the work will be done by himself.
+
+## References
+
+- [Git - Book](https://git-scm.com/book/en/v2)
+- [Patterns for Managing Source Code Branches](https://martinfowler.com/articles/branching-patterns.html)
+- [GitHub Flow](http://scottchacon.com/2011/08/31/github-flow.html)
