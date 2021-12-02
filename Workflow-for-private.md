@@ -1,6 +1,8 @@
 # Workflow for private repositories with contributors
 
-For the following sections, we are taking as an example a hypothetical private repository on GitHub named `project-1` and owned by the organization `user-org`, which is supposed to be under the account of the project maintainer. First, we consider what the maintainer should do to prepare for collaboration. Then, we describe the workflow that a contributor should follow. Finally, we will see the steps the maintainer must be aware of when a contributor has finished a task.
+For the following sections, we are taking as an example a hypothetical private repository on GitHub named `project` and owned by the organization `user-org`, which is supposed to be under the account of the project maintainer.
+
+First, we consider what a maintainer should do to prepare for collaboration. Then, we describe the workflow that contributors should follow. Finally, we will see the steps a maintainer must be aware of when a contributor has finished a task.
 
 ## Maintainer
 
@@ -12,13 +14,13 @@ On the GitHub website:
 - Go to your organization and create a private repository for the project.
 - Add one or more contributors to the repository (Project Settings :arrow_right: Manage access). Contributors must at least be allowed to push and manage issues in the repository.
 
-On your local machine, initialize your git repository and push your first commit.
+On your local machine, initialize your Git repository and push your first commit.
 
 ```
 git init
 git add .
 git commit
-git remote add origin git@github.com:user-org/project-1.git
+git remote add origin git@github.com:user-org/project.git
 git push origin main
 ```
 
@@ -26,15 +28,15 @@ Now contributors can clone and work on the project.
 
 ## Contributor
 
-Even though it is private, an authorized contributor can access the repository: `https://github.com/user-org/project-1`.
+Even though it is private, an authorized contributor can access the repository: `https://github.com/user-org/project`.
 
 1. First, the contributor must clone the remote repository to his local machine.
 
    ```
-   git clone git@github.com:user-org/project-1.git
+   git clone git@github.com:user-org/project.git
    ```
 
-2. Before doing any work, you should consider going to the GitHub website project `https://github.com/user-org/project-1` and open an issue to discuss your idea.
+2. Before doing any work, you should consider going to the GitHub website project `https://github.com/user-org/project` and open an issue to discuss your idea.
 
 3. When your issue is accepted, or you just want to try it yourself, create a branch to work on the project. Use a suggestive name related to the issue title and tracking number, like `doc-122-add-samples`, `bug-3-password-incorrect`, `feature-88-add-pdf-report`, `idea-12-hash-instead-of-btree`. But remember, **always create a branch** before starting your work.
 
@@ -48,7 +50,7 @@ Even though it is private, an authorized contributor can access the repository: 
    git switch <working-branch>
    ```
 
-5. Now you can work on the project (add files, edit content, make commits), and eventually, go back to the GitHub website to discuss the issue with the maintainer and other contributors. Stay on this step as long as you want to.
+5. Now you can work on the project (add files, edit content, make commits), and eventually, go back to the GitHub website project to discuss the issue with the maintainer and other contributors. Stay on this step as long as you want to.
 
 6. As soon as you are ready to share your work, send your commits to the remote server.
 
@@ -112,7 +114,7 @@ Although any contributor with write access to the repository can do this operati
 
 4. In case the work must be rejected.
 
-   You can abort the merge process if it is already started.
+   You can abort the merge process if it is still in progress.
 
    ```
    git merge --abort
