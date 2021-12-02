@@ -68,11 +68,11 @@ Because the maintainer's repository is public, every GitHub user can access it: 
 
 10. If for any reason you need the latest commits pushed by other contributors, fetch them first from the upstream repository as described in the previous step. After that, fetch from your remote copy of the project and merge it into your working branch.
 
-```
-git fetch origin main
-git switch <working-branch>
-git merge origin/main
-```
+    ```
+    git fetch origin main
+    git switch <working-branch>
+    git merge origin/main
+    ```
 
 ## Pull Request
 
